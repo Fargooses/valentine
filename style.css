@@ -235,13 +235,6 @@
 	text-shadow: 0 0 6px rgba(255, 122, 165, 0.8), 
 	             0 0 3px rgba(255, 255, 255, 0.5);
 }
-	margin-left: auto;
-	width: 18%;
-	margin-top: auto;
-	margin-right: auto;
-	margin-bottom: auto;
-	display: block;
-}
 /* ===== МОБИЛЬНЫЕ УСТРОЙСТВА И ПЛАНШЕТЫ ===== */
 @media (max-width: 768px) {
     * {
