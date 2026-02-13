@@ -234,3 +234,191 @@
 	text-shadow: 0 0 6px rgba(255, 122, 165, 0.8), 
 	             0 0 3px rgba(255, 255, 255, 0.5);
 }
+	margin-left: auto;
+	width: 18%;
+	margin-top: auto;
+	margin-right: auto;
+	margin-bottom: auto;
+	display: block;
+}
+/* ===== МОБИЛЬНЫЕ УСТРОЙСТВА И ПЛАНШЕТЫ ===== */
+@media (max-width: 768px) {
+    * {
+        font-size: 16px;
+    }
+
+    .main-container {
+        max-width: 90%;
+        padding: 15px;
+        gap: 15px;
+    }
+
+    .zagolovok-frame {
+        font-size: 3px;
+        width: 90%;
+        height: auto;
+        margin-bottom: 10px;
+    }
+
+    .heart-container {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .heart-frame {
+        font-size: 12px;
+        width: 80px;
+    }
+
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+        margin: 20px auto;
+        padding: 0 10px;
+        width: 100%;
+        max-width: 500px;
+        flex-wrap: nowrap;
+    }
+
+    .block {
+        display: block;
+        width: auto;
+        flex: 0 1 auto;
+    }
+
+    .text {
+        font-size: 14px;
+        text-align: left;
+        padding: 10px;
+        max-width: 280px;
+        width: auto;
+        flex: 1;
+        min-width: 150px;
+        background: rgba(0, 0, 0, 0.3);
+        border-radius: 5px;
+        line-height: 1.5;
+    }
+
+    /* Уменьшаем цветочки на мобильных */
+    .cvetok4 {
+        font-size: 5px;
+        width: 85%;
+        margin: 15px auto;
+        text-shadow: 0 0 12px rgba(191, 0, 241, 1), 
+                     0 0 6px rgba(255, 255, 255, 0.8);
+    }
+
+    .cvetok1, .cvetok2, .cvetok3, .cvetok5, .cvetok6, .cvetok7, 
+    .cvetok8, .cvetok9, .cvetok10, .cvetok11 {
+        font-size: 3.5px !important;
+        width: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: inline-block !important;
+        flex-shrink: 0;
+        text-shadow: 0 0 10px currentColor, 
+                     0 0 5px rgba(255, 255, 255, 0.7) !important;
+    }
+
+    .cvetok2, .cvetok3 {
+        line-height: 1;
+        font-size: 3.5px;
+        display: block;
+        width: auto;
+        min-width: 35px;
+    }
+
+    .pflower-frame, .rflower-frame {
+        font-size: 3.5px;
+        width: auto;
+        min-width: 35px;
+        line-height: 1;
+        flex-shrink: 0;
+        text-shadow: 0 0 10px currentColor, 
+                     0 0 5px rgba(255, 255, 255, 0.7);
+    }
+
+    .flower-frame1, #flower-frame {
+        font-size: 3.5px;
+        width: auto;
+        margin: 0;
+        padding: 0;
+        flex-shrink: 0;
+        text-shadow: 0 0 10px currentColor, 
+                     0 0 5px rgba(255, 255, 255, 0.7);
+    }
+}
+
+/* ===== ОЧЕНЬ МАЛЕНЬКИЕ ЭКРАНЫ ===== */
+@media (max-width: 480px) {
+    * {
+        font-size: 14px;
+    }
+
+    .main-container {
+        max-width: 95%;
+        padding: 10px;
+        gap: 10px;
+    }
+
+    .zagolovok-frame {
+        font-size: 2px;
+        width: 100%;
+    }
+
+    .heart-frame {
+        font-size: 10px;
+        width: 60px;
+    }
+
+    .container {
+        gap: 5px;
+        margin: 15px 0;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+
+    .text {
+        font-size: 12px;
+        max-width: 220px;
+        flex: 1;
+        min-width: 100px;
+    }
+
+    .block {
+        min-width: 100px;
+    }
+
+    .cvetok2, .cvetok3 {
+        font-size: 2.5px !important;
+        width: auto !important;
+        flex-shrink: 0;
+        min-width: 30px;
+        text-shadow: 0 0 8px currentColor, 
+                     0 0 4px rgba(255, 255, 255, 0.6) !important;
+    }
+
+    .pflower-frame, .rflower-frame, .flower-frame1, #flower-frame {
+        font-size: 2.5px;
+        width: auto;
+        min-width: 25px;
+        flex-shrink: 0;
+        text-shadow: 0 0 8px currentColor, 
+                     0 0 4px rgba(255, 255, 255, 0.6);
+    }
+
+    .cvetok4 {
+        font-size: 3px;
+        text-shadow: 0 0 10px rgba(191, 0, 241, 1), 
+                     0 0 5px rgba(255, 255, 255, 0.7);
+    }
+
+    /* Уменьшаем отступы отдельных элементов */
+    .cvetok5, .cvetok6, .cvetok7, .cvetok8, .cvetok9, .cvetok10, .cvetok11 {
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+}
