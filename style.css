@@ -298,7 +298,7 @@
     /* Увеличиваем цветочки на мобильных */
     .cvetok4 {
         font-size: 7px;
-        width: 90%;
+        width: 100%;
         margin: 15px auto;
         text-shadow: 0 0 12px rgba(191, 0, 241, 1), 
                      0 0 6px rgba(255, 255, 255, 0.8);
@@ -404,7 +404,7 @@
     }
 
     .cvetok4 {
-        font-size: 5.5px;
+        font-size: 3px;
         text-shadow: 0 0 10px rgba(191, 0, 241, 1), 
                      0 0 5px rgba(255, 255, 255, 0.7);
     }
