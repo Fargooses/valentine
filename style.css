@@ -220,7 +220,6 @@
 	    font-size: 4px;
     display: block;
     width: 33%;
-    margin: auto;
     color: #B815FF;
     text-shadow:
       0 0 10px rgba(184,21,255,1),
@@ -337,7 +336,6 @@
     .cvetok8, .cvetok9, .cvetok10, .cvetok11 {
         font-size: 2.5px !important;
         display: block !important;
-        flex-shrink: 0;
         text-shadow:
           0 0 18px currentColor,
           0 0 8px rgba(255, 255, 255, 0.9) !important;
